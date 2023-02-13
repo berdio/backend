@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 
-lass User(AbstractUser):
+class User(AbstractUser):
     sms_code = models.IntegerField(blank=True, null=True)
     sms_status = models.BooleanField(default=False)
 
