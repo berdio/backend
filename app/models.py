@@ -90,9 +90,9 @@ class OrderAddress(models.Model):
 
 
 
-# class Pay(models.Model):
-#     text = models.TextField()
+class Pay(models.Model):
+    text = models.TextField()
 
 
-# class Deliver(models.Model):
-#     text = models.TextField()
+class Deliver(models.Model):
+    text = models.TextField()
